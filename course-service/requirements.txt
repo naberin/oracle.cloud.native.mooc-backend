@@ -1,3 +1,4 @@
 Flask
 cx_Oracle
 marshmallow
+Flask-Cors
