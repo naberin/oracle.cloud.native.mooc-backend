@@ -2,3 +2,6 @@ environment
 
 .idea
 .vscode
+
+__pycache__
+.pytest_cache
