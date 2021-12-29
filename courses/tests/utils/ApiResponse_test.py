@@ -2,7 +2,7 @@ import unittest
 
 from src.utils.ApiResponse import ApiResponse
 from src.config.constants import ErrorConstants
-from src.app import app
+from app import app
 
 
 class TestApiResponse(unittest.TestCase):
