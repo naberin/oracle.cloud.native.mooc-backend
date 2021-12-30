@@ -16,9 +16,9 @@ class EnvironmentConstants:
 
 
 class DBConfigurationConstants:
-    DB_POOL_MIN = 15
+    DB_POOL_MIN = 1
     DB_POOL_MAX = 15
-    DB_POOL_INC = 0
+    DB_POOL_INC = 1
     DB_POOL_THR = True
     DB_POOL_ENC = "UTF-8"
     DB_SCHEMA = "OC_DEPTH"
