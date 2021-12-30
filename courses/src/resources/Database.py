@@ -1,13 +1,14 @@
 import app
 import cx_Oracle
 
-from functools import wraps
+from src.config.constants import DBConfigurationConstants
 
 
 class Database:
 
     def __init__(self):
         self.connection = app.pool.acquire()
+        self.connection.current_schema = DBConfigurationConstants.DB_SCHEMA
         self.cursor = self.connection.cursor()
 
     def set_row_factory(self):
